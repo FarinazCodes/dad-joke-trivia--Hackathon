@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="../styles/game.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="../scripts/build-game-page.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo-container">
+            <a class="header__logo--image" href="../index.html">
+            <img 
+            src="/assets/logos/Dadjokes.gif"
+            alt="logo"
+            /></a>
+    </header>
+    <main class="center">
+        <h1 class="description">Give the right answer to get a dad joke</h1>
+        <section class="card">        
+            <article class="card__game">
+            <!-- <h2 class="card__title">Name of the category</h2> -->
+            <h2 id= "question" class="card__question"></h2>
+            <div class="card__buttons card__button--joke">
+                <button id="true-button" class="card__button " value="True">True</button>
+                <button id="false-button" class="card__button " value="False">False</button>
+            </div>
+            </article>
+        </section>
+        <h2 class="message"></h2>
+        <button id="more-jokes" class="card__button card__button--joke">Get more jokes</button>
+        <a  href="../index.html"><button class="card__button">Choose another category</button></a>
+        
+    </main>
+    <footer class="footer">
+    <a href="https://www.linkedin.com/in/amanpreetkaurdhaliwal/">
+        <img
+          class="footer__icon"
+          src="../assets/images/Aman.gif"
+          alt="creator linkedIn"
+        />
+      </a>
+      <p class="footer__paragraph">By Aman and Farinaz</p>
+      <a href="https://www.linkedin.com/in/farinazebrahimpour/">
+        <img
+          class="footer__icon"
+          src="../assets/images/Farinaz.gif"
+          alt="creator linkedIn"
+        />
+      </a>  
+    </footer>  
+</body>
+</html>
