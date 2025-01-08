@@ -4,7 +4,7 @@
 .card {  
     display: flex;
     justify-self: center;
-    width: 20.625rem;
+    width: 25.625rem;
     height: 27.5rem;
     margin: 1.25rem;
     border-radius: 0.625rem;
@@ -61,5 +61,9 @@
   }
   .error{
     color:$primary-red;
+  }
+  .description{
+    margin-top: 1rem;
+    color: $primary-red;
   }
   

@@ -8,28 +8,28 @@
 
 html, body {
   background: radial-gradient(circle, #FFDCD8, #38B6FF);
+  height: 50rem;
 }
 
 .header {
   text-align: center;
 }
 .header img {
-  height: 25rem;
+  margin-top: 0.5rem;
+  height: 15rem;
 }
 
 .footer {
   display: flex;
-  margin-top: 5rem;
   text-align: center;
-  padding: 3rem;
   height: 15rem;
   justify-content: space-around;
 }
 .footer__paragraph {
-  color: #e1e1e1;
+  color: #000;
   font-size: 24px;
   font-weight: bold;
-  margin-top: 3rem;
+  margin-top: 8rem;
   margin-left: 1rem;
 }
 
@@ -48,12 +48,12 @@ a {
 }
 .category__header {
   color: #FF3131;
-  margin-bottom: 4rem;
+  margin: 2rem 0;
 }
 .category__card {
   width: 20.625rem;
   height: 27.5rem;
-  margin: 1.25rem;
+  margin: 1.5rem;
   border-radius: 0.625rem;
   background-color: #fff;
   box-shadow: 0.5px 9px 1px rgba(0, 0, 0, 0.25);

@@ -1,4 +1,3 @@
-
 const triviaGkAPI = "https://opentdb.com/api.php?amount=5&category=9&difficulty=easy&type=boolean";  //GK
 const triviaMusicAPI = "https://opentdb.com/api.php?amount=5&category=12&difficulty=easy&type=boolean";// Music
 const triviaScienceAPI = "https://opentdb.com/api.php?amount=5&category=17&difficulty=easy&type=boolean";  //Science
@@ -22,7 +21,7 @@ async function getData(){
     try{
         const response = await axios.get(triviaGkAPI);
         const result =response.data.results;
-        //console.log(result);
+        console.log(result);
         displayQuestion(result);
     }catch(error){
         console.log(error);
@@ -37,7 +36,7 @@ async function getMusicData(){
     try{
         const response = await axios.get(triviaMusicAPI);
         const result =response.data.results;
-       // console.log(result);
+        console.log(result);
         displayQuestion(result);
     }catch(error){
         console.log(error);
@@ -52,7 +51,7 @@ async function getScienceData(){
     try{
         const response = await axios.get(triviaScienceAPI);
         const result =response.data.results;
-       // console.log(result);
+        console.log(result);
         displayQuestion(result);
     }catch(error){
         console.log(error);
