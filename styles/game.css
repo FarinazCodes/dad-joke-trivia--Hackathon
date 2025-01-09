@@ -8,7 +8,6 @@
 
 html, body {
   background: radial-gradient(circle, #FFDCD8, #38B6FF);
-  height: 50rem;
 }
 
 .header {
@@ -22,7 +21,6 @@ html, body {
 .footer {
   display: flex;
   text-align: center;
-  height: 15rem;
   justify-content: space-around;
 }
 .footer__paragraph {

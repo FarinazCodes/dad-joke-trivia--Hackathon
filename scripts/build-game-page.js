@@ -113,12 +113,12 @@ function clickhandler(event){
     console.log(event.target.value);
     console.log("line 40" + true_ans)
     if(selectAnswer == true_ans){
-        trueCount.textContent="✅ Here is your Dad joke";
+        trueCount.textContent="✅ Here is your Dad joke.";
         getDadJoke();
         moreJokes.classList.remove("card__button--joke");
     }        
     else{
-        trueCount.textContent="Ah oh! Wrong Answer, Try Again";
+        trueCount.textContent="Ah oh! Wrong Answer, Try this one.";
         getCategory(cat);
         moreJokes.classList.add("card__button--joke");
     }
