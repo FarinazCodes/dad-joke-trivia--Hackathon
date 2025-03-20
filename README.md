@@ -54,8 +54,3 @@ Dad Joke Trivia combines classic true-or-false trivia questions with hilarious d
 git clone https://github.com/farinazcodes/dad-joke-trivia.git
 
 
----
-## 🌟 Contribution
-Feel free raise issues for improvements!
-
-Happy coding—and don't forget to enjoy the dad jokes! 🎉
