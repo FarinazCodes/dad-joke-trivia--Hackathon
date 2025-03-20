@@ -51,6 +51,6 @@ Dad Joke Trivia combines classic true-or-false trivia questions with hilarious d
 
 ### 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/farinazcodes/dad-joke-trivia.git
+git clone https://github.com/FarinazCodes/dad-joke-trivia--Hackathon.git
 
 
